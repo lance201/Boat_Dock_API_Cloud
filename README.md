@@ -1,4 +1,4 @@
-# CS493_Cloud_Portfolio
+# Boat_Dock_API_Cloud
 This project uses GCP and deploys an app on GCP that uses Datastore to access data through CRUD operations. 
 In addition, it uses Auth0 to authenticate and authorize users that has access to the data through examining the JWT token given by the Auth0.
 
