@@ -2,6 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
 const ds = require('./datastore');
+const secret = require('./keys');
 
 const datastore = ds.datastore;
 
@@ -27,8 +28,8 @@ function create_secret() {
     return result;
 }
 
-const CLIENT_ID = 'fTeQCYfg0mEiTXGKlcAqNMobR8kNVG8n';
-const CLIENT_SECRET = 'EwEdqdeuctmLqLuE3olVGgeRkuCCpNNo3XGkuQxiifIDH5qNoE-tY3skKMAASRoB';
+const CLIENT_ID = secret.client_id;
+const CLIENT_SECRET = secret.client_secret;
 const DOMAIN = 'cs493-wonglo-portfolio.us.auth0.com';
 const BASE_URL = 'https://portfolio-wonglo.uc.r.appspot.com';
 
