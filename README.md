@@ -2,8 +2,6 @@
 This project uses GCP and deploys an app on GCP that uses Datastore to access data through CRUD operations. 
 In addition, it uses Auth0 to authenticate and authorize users that has access to the data through examining the JWT token given by the Auth0.
 
-The app can be accessed through this url: https://portfolio-wonglo.uc.r.appspot.com
-
 The API specificiation from wonglo_project.pdf describes in detail how the API works and the relationships between each of the entities in the data.
 As part of the project, a test suite using postman is created to test the API to confirm the relationships stated between entities are established correctly, access are provided correctly and if error codes are displayed correctly during different CRUD operations.
 
